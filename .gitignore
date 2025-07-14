@@ -1,0 +1,21 @@
+# Node.js modules folder
+node_modules/
+
+# dotenv environment variable file
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+
+# Build folders
+dist/
+build/
+
+# IDE/editor config files
+.vscode/
+.idea/
