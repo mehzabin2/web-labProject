@@ -4,6 +4,7 @@
 body{
      margin: 0;
   padding: 0;
+  height: auto;
   box-sizing: border-box;
   font-family: sans-serif;
 }
@@ -129,6 +130,85 @@ body{
 .logfield{
     margin: 10px;
 }
+#main{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   height: 600px;
+  width: 100%;
+   background-color: #D0D7DD;
+}
+.cardcls {
+  width: 200px;
+  background: #f9f9f9;
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  
+}
+.cardcls img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.cardcls button {
+  background-color: #29475E;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+}
+.sell{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    height: 900px;
+    background-color:#D0D7DD;
+    width: 100%;
+}
+.heading{
+  display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+     background-color: white;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#sell{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+}
+.selldiv{
+  width: 200px;
+ 
+  margin: 15px;
+  padding: 10px;
+ 
+}
+.selldiv img{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50px 0px 50px 0px;
+  box-shadow: 2px 3px 4px rgba(172, 169, 169, 0.539);
+}
+
+
 
 
 

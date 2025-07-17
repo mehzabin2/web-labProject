@@ -2,21 +2,15 @@ const email = document.getElementById('email');
 const password = document.getElementById('password');
 const loginbtn = document.getElementById('loginbtn');
 const message = document.getElementById('message');
-const errorSpans = document.querySelectorAll('.error');
-/*const loginhtml=document.getElementById('navbutton');
-loginhtml.addEventListener('click',function(){
-  window.location.href="login.html";
-})*/
+
+
 
 loginbtn.addEventListener('click', async () => {
   const emailvalue = email.value.trim();
   const passvalue = password.value.trim();
 
   // Clear previous errors
-  errorSpans.forEach(span => {
-    span.textContent = '';
-    span.style.color = 'red';
-  });
+  
 
   message.textContent = '';
   message.style.color = 'red';
